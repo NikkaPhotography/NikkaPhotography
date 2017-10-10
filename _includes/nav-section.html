@@ -1,0 +1,18 @@
+<div class="nav-link-section padding-sm">
+  <a class="nav-link" href="/gallery">Gallery</a>
+  <a class="nav-link" href="/about">About</a>
+  <a class="nav-link" href="/contact">Contact</a>
+</div>
+{% if include.white %}
+<div class="nav-link-section">
+  <a class="nav-link" href="/"><img src="{{ "/assets/images/pinterest-white.svg" | relative_url }}"/></a>
+  <a class="nav-link" href="/"><img src="{{ "/assets/images/facebook-white.svg" | relative_url }}"/></a>
+  <a class="nav-link" href="/"><img src="{{ "/assets/images/instagram-white.svg" | relative_url }}"/></a>
+</div>
+{% else %}
+<div class="nav-link-section">
+  <a class="nav-link" href="/"><img src="{{ "/assets/images/pinterest.svg" | relative_url }}"/></a>
+  <a class="nav-link" href="/"><img src="{{ "/assets/images/facebook.svg" | relative_url }}"/></a>
+  <a class="nav-link" href="/"><img src="{{ "/assets/images/instagram.svg" | relative_url }}"/></a>
+</div>
+{% endif %}

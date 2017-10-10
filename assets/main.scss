@@ -1,0 +1,281 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "grid";
+
+//Colors
+$colorDefault: #333333;
+$colorDefaultDark: #202020;
+$colorBorder: #cccccc;
+$colorAccent: #1ABC9C;
+$colorText: #666666;
+
+/* Default
+=================================*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  color: $colorText;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+img {
+  display: block;
+  width: 100%;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: $colorDefault;
+}
+ul, ol {
+  padding-left: 30px;
+}
+a {
+  color: $colorAccent;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+p {
+  margin-top: 0;
+}
+
+/* Global
+=================================*/
+.padding {
+  padding-bottom: 20px;
+}
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #fff;
+  background: $colorDefault;
+  border: 0;
+  cursor: pointer;
+  appearance: none;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: $colorAccent;
+  }
+}
+.input-wrapper {
+  padding-bottom: 20px;
+}
+.label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.input {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: $colorDefault;
+  border: 1px solid $colorBorder;
+  transition: all 0.2s ease-in-out;
+  &:focus {
+    border-color: $colorAccent;
+    outline: 0;
+  }
+}
+.textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 200px;
+}
+
+/* Header
+=================================*/
+.header {
+  padding: 30px 0;
+  border-top: 10px solid $colorDefault;
+  border-bottom: 1px solid #f2f2f2;
+  &.home {
+    border-bottom: 0;
+  }
+}
+.logo {
+  display: block;
+  img {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
+.nav-link-section {
+  display: inline-block;
+}
+.nav-link {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: $colorDefault;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: $colorAccent;
+    text-decoration: none;
+  }
+}
+
+/* Home
+=================================*/
+.home-gallery {
+  display: block;
+  &:hover {
+    .home-gallery-title-wrapper {
+      opacity: 1;
+    }
+  }
+}
+.home-gallery-full {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    transform: translate(-50%, -50%);
+  }
+}
+.home-gallery-half {
+  position: relative;
+  width: 100%;
+  padding-bottom: calc(50% - 10px);
+  overflow: hidden;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    transform: translate(-50%, -50%);
+  }
+}
+.home-gallery-title-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.home-gallery-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translate(0, -60%);
+  h2 {
+    margin: 0;
+    font-family: 'Gineva';
+    font-size: 40px;
+    line-height: normal;
+  }
+  h4 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+
+/* Gallery
+=================================*/
+.gallery-thumbnail {
+  position: relative;
+  display: block;
+}
+.gallery-title-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: rgba(255,255,255,0.75);
+  }
+}
+.gallery-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translate(0, -60%);
+  h2 {
+    margin: 0;
+    font-family: 'Gineva';
+    font-size: 40px;
+    line-height: normal;
+  }
+  h4 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+
+/* Footer
+=================================*/
+.footer {
+  padding: 30px 0;
+  background: $colorDefault;
+  .nav-link {
+    color: #fff;
+  }
+}
+.footer-bottom {
+  padding: 5px 0;
+  background: $colorDefaultDark;
+  .copyright {
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+/* Responsive
+=================================*/
+@media screen and (max-width: 768px) {
+  .home-gallery-full, .home-gallery-half {
+    padding-bottom: calc(50%);
+  }
+}

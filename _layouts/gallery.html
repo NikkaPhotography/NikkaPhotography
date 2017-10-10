@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="page">
+
+  <div class="container">
+
+    <div class="grid-center">
+      <div class="col-10_sm-12">
+        <header class="page-header">
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+        </header>
+        <div class="page-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <div class="grid-center">
+      {% for photoshoot in site.photoshoots %}
+        <div class="col-5_sm-12 padding">
+          <a class="gallery-thumbnail" href="{{ photoshoot.url | relative_url }}">
+            <div class="gallery-title-wrapper">
+              <div class="gallery-title">
+                <h4>{{ photoshoot.type }}</h4>
+                <h2>{{ photoshoot.title }}</h2>
+              </div>
+            </div>
+            <img src="{{ photoshoot.photos[0] | relative_url }}" />
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+  </div>
+
+</article>

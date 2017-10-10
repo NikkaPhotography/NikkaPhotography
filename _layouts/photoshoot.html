@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="page">
+
+  <div class="container">
+
+    <div class="grid-center">
+      <div class="col-10_sm-12">
+        <header class="page-header">
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+        </header>
+        <div class="page-content">
+          {{ content }}
+        </div>
+      </div>
+      <div class="col-10_sm-12">
+        {% for photo in page.photos %}
+          <div class="photo padding">
+            <img src="{{ photo | relative_url }}" />
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% if page.previous.url or page.next.url %}
+    <div class="grid-center">
+      <div class="col-5_sm-12 padding">
+        {% if page.previous.url %}
+          <a href="{{ page.previous.url }}" title="Previous photoshoot">Previous photoshoot</a>
+        {% endif %}
+      </div>
+      <div class="col-5_sm-12 text-right text-center-sm padding">
+        {% if page.next.url %}
+          <a href="{{ page.next.url }}" title="Next photoshoot">Next photoshoot</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+
+</article>
