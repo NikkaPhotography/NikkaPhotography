@@ -15,7 +15,7 @@ layout: default
                 <h2>{{ site.photoshoots[0].title }}</h2>
               </div>
           </div>
-          <img src="{{ site.photoshoots[0].photos[0] | relative_url }}"/>
+          <img src="{{ site.photoshoots[0].list_of_photos[0] | prepend: site.backblazeurl }}"/>
         </a>
       </div>
       <div class="col-6_sm-12 padding-sm">
@@ -28,7 +28,7 @@ layout: default
                     <h2>{{ site.photoshoots[1].title }}</h2>
                   </div>
                 </div>
-              <img src="{{ site.photoshoots[1].photos[0] | relative_url }}"/>
+              <img src="{{ site.photoshoots[1].list_of_photos[0] | prepend: site.backblazeurl }}"/>
             </a>
           </div>
           <div class="col-12 padding">
@@ -39,7 +39,7 @@ layout: default
                   <h2>{{ site.photoshoots[2].title }}</h2>
                 </div>
               </div>
-              <img src="{{ site.photoshoots[2].photos[0] | relative_url }}"/>
+              <img src="{{ site.photoshoots[2].list_of_photos[0] | prepend: site.backblazeurl }}"/>
             </a>
           </div>
         </div>

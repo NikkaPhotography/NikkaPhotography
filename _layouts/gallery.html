@@ -25,7 +25,7 @@ layout: default
                 <h2>{{ photoshoot.title }}</h2>
               </div>
             </div>
-            <img src="{{ photoshoot.photos[0] | relative_url }}" />
+            <img src="{{ photoshoot.list_of_photos[0] | prepend: site.backblazeurl }}" />
           </div>
         </a>
       {% endfor %}
