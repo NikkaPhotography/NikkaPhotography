@@ -15,9 +15,9 @@ layout: default
         </div>
       </div>
       <div class="col-10_sm-12">
-        {% for photo in page.photos %}
+        {% for photo in page.list_of_photos %}
           <div class="photo padding">
-            <img src="{{ photo | relative_url }}" />
+            <img src="{{ photo | prepend: site.backblazeurl }}" />
           </div>
         {% endfor %}
       </div>

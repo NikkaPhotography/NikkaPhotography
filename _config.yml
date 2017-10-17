@@ -23,6 +23,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://nikkaphotography.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+backblazeurl: https://f001.backblazeb2.com/file/nikkaphotography/
 
 # Build settings
 markdown: kramdown
