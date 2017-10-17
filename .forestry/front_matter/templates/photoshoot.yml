@@ -23,3 +23,11 @@ fields:
   name: photoshoot_date
   label: Photoshoot date
   description: The date the photoshoot was done
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    required: true
+  label: Layout
+  description: The layout of the page. Should be set to "photoshoot"
