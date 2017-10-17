@@ -1,0 +1,23 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: Photoshoot title
+  name: photoshoot_title
+  description: The title of your photoshoot
+  config:
+    required: true
+- type: text
+  name: photoshoot_type
+  label: Photoshoot type
+  description: 'The type of photoshoot it is, example: head shots, family shots, etc.'
+- type: list
+  label: List of photos
+  name: list_of_photos
+  description: 'Add your photos from Backblaze.com. Each item should only be the name
+    of the file as you uploaded them, example: photoshoot-01-edit.jpg'
+  default: []
+- type: datetime
+  name: photoshoot_date
+  label: Photoshoot date
+  description: The date the photoshoot was done
