@@ -29,5 +29,7 @@ fields:
     source:
       type: simple
     required: true
+    options:
+    - photoshoot
   label: Layout
   description: The layout of the page. Should be set to "photoshoot"
