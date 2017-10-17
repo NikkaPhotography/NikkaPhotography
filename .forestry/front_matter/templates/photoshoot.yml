@@ -33,3 +33,4 @@ fields:
     - photoshoot
   label: Layout
   description: The layout of the page. Should be set to "photoshoot"
+  default: photoshoot
