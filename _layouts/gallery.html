@@ -21,8 +21,8 @@ layout: default
           <a class="gallery-thumbnail" href="{{ photoshoot.url | relative_url }}">
             <div class="gallery-title-wrapper">
               <div class="gallery-title">
-                <h4>{{ photoshoot.type }}</h4>
-                <h2>{{ photoshoot.title }}</h2>
+                <h4>{{ photoshoot.photoshoot_type }}</h4>
+                <h2>{{ photoshoot.photoshoot_title }}</h2>
               </div>
             </div>
             <img src="{{ photoshoot.list_of_photos[0] | prepend: site.backblazeurl }}" />

@@ -11,8 +11,8 @@ layout: default
         <a class="home-gallery home-gallery-full" href="{{ site.photoshoots[0].url | relative_url }}">
           <div class="home-gallery-title-wrapper">
               <div class="home-gallery-title">
-                <h4>{{ site.photoshoots[0].type }}</h4>
-                <h2>{{ site.photoshoots[0].title }}</h2>
+                <h4>{{ site.photoshoots[0].photoshoot_type }}</h4>
+                <h2>{{ site.photoshoots[0].photoshoot_title }}</h2>
               </div>
           </div>
           <img src="{{ site.photoshoots[0].list_of_photos[0] | prepend: site.backblazeurl }}"/>
@@ -24,8 +24,8 @@ layout: default
             <a class="home-gallery home-gallery-half" href="{{ site.photoshoots[1].url | relative_url }}">
                 <div class="home-gallery-title-wrapper">
                   <div class="home-gallery-title">
-                    <h4>{{ site.photoshoots[1].type }}</h4>
-                    <h2>{{ site.photoshoots[1].title }}</h2>
+                    <h4>{{ site.photoshoots[1].photoshoot_type }}</h4>
+                    <h2>{{ site.photoshoots[1].photoshoot_title }}</h2>
                   </div>
                 </div>
               <img src="{{ site.photoshoots[1].list_of_photos[0] | prepend: site.backblazeurl }}"/>
@@ -35,8 +35,8 @@ layout: default
             <a class="home-gallery home-gallery-half" href="{{ site.photoshoots[2].url | relative_url }}">
               <div class="home-gallery-title-wrapper">
                 <div class="home-gallery-title">
-                  <h4>{{ site.photoshoots[2].type }}</h4>
-                  <h2>{{ site.photoshoots[2].title }}</h2>
+                  <h4>{{ site.photoshoots[2].photoshoot_type }}</h4>
+                  <h2>{{ site.photoshoots[2].photoshoot_title }}</h2>
                 </div>
               </div>
               <img src="{{ site.photoshoots[2].list_of_photos[0] | prepend: site.backblazeurl }}"/>
