@@ -8,7 +8,7 @@ layout: photoshoot
 date: 2017-10-26 16:18:34 +0000
 photoshoot_title: Photoshoot four
 photoshoot_type: Landscape shots
-photoshoot_date: 2017-10-26 00:00:00 -0500
+photoshoot_date: 2017-10-26 05:00:00 +0000
 ---
 
 
