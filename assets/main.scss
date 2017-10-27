@@ -11,6 +11,14 @@ $colorBorder: #cccccc;
 $colorAccent: #1ABC9C;
 $colorText: #666666;
 
+@font-face {
+  font-family: 'Gineva', sans-serif;
+  src: url('gineva-regular-webfont.woff2') format('woff2'),
+       url('gineva-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Default
 =================================*/
 * {
