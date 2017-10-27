@@ -1883,7 +1883,7 @@ html.lte-ie9 [class*='grid'] > [class*="col-12"] {
   .container {
     padding: 0 20px; } }
 @font-face {
-  font-family: 'Gineva', sans-serif;
+  font-family: 'ginevaregular', sans-serif;
   src: url("gineva-regular-webfont.woff2") format("woff2"), url("gineva-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
@@ -2061,7 +2061,7 @@ p {
   transform: translate(0, -60%); }
   .home-gallery-title h2 {
     margin: 0;
-    font-family: 'Gineva';
+    font-family: 'ginevaregular';
     font-size: 40px;
     line-height: normal; }
   .home-gallery-title h4 {
@@ -2097,7 +2097,7 @@ p {
   transform: translate(0, -60%); }
   .gallery-title h2 {
     margin: 0;
-    font-family: 'Gineva';
+    font-family: 'ginevaregular';
     font-size: 40px;
     line-height: normal; }
   .gallery-title h4 {
