@@ -1883,7 +1883,7 @@ html.lte-ie9 [class*='grid'] > [class*="col-12"] {
   .container {
     padding: 0 20px; } }
 @font-face {
-  font-family: 'ginevaregular', sans-serif;
+  font-family: 'ginevaregular';
   src: url("gineva-regular-webfont.woff2") format("woff2"), url("gineva-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
@@ -2061,7 +2061,7 @@ p {
   transform: translate(0, -60%); }
   .home-gallery-title h2 {
     margin: 0;
-    font-family: 'ginevaregular';
+    font-family: 'ginevaregular', sans-serif;
     font-size: 40px;
     line-height: normal; }
   .home-gallery-title h4 {
@@ -2097,7 +2097,7 @@ p {
   transform: translate(0, -60%); }
   .gallery-title h2 {
     margin: 0;
-    font-family: 'ginevaregular';
+    font-family: 'ginevaregular', sans-serif;
     font-size: 40px;
     line-height: normal; }
   .gallery-title h4 {
@@ -2128,4 +2128,7 @@ p {
 =================================*/
 @media screen and (max-width: 768px) {
   .home-gallery-full, .home-gallery-half {
-    padding-bottom: calc(50%); } }
+    padding-bottom: calc(50%); }
+
+  .nav-link:first-of-type {
+    margin-left: 0; } }
