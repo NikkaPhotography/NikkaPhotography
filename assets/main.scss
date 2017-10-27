@@ -12,7 +12,7 @@ $colorAccent: #1ABC9C;
 $colorText: #666666;
 
 @font-face {
-  font-family: 'ginevaregular', sans-serif;
+  font-family: 'ginevaregular';
   src: url('gineva-regular-webfont.woff2') format('woff2'),
        url('gineva-regular-webfont.woff') format('woff');
   font-weight: normal;
@@ -207,7 +207,7 @@ p {
   transform: translate(0, -60%);
   h2 {
     margin: 0;
-    font-family: 'ginevaregular';
+    font-family: 'ginevaregular', sans-serif;
     font-size: 40px;
     line-height: normal;
   }
@@ -247,7 +247,7 @@ p {
   transform: translate(0, -60%);
   h2 {
     margin: 0;
-    font-family: 'ginevaregular';
+    font-family: 'ginevaregular', sans-serif;
     font-size: 40px;
     line-height: normal;
   }
@@ -285,5 +285,10 @@ p {
 @media screen and (max-width: 768px) {
   .home-gallery-full, .home-gallery-half {
     padding-bottom: calc(50%);
+  }
+  .nav-link {
+    &:first-of-type {
+      margin-left: 0;
+    }
   }
 }
