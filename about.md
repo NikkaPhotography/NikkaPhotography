@@ -5,16 +5,13 @@ permalink: "/about"
 ---
 
 
-Augue sit proin magna pid porta? Dictumst lorem nec turpis urna magna, ac ut nascetur! Ultrices dictumst ut, lorem pid vut et penatibus parturient, ac, sociis, sagittis! Eros aliquam. Elit et aliquam! Nascetur a enim lundium, adipiscing porttitor turpis risus. I'm testing.
+Hi there, thanks for stopping by! My name is Nikka, I'm a Winnipeg based amateur photographer who would love to work with you! I'm 25 years old and currently working on my second degree, in Social Work.
 
-* Augue sit
+<span style="font-size: 1rem;">I've been playing with cameras and&nbsp;</span>photography<span style="font-size: 1rem;">&nbsp;for 7 years now, and I&nbsp;specialize in portraits, engagement sessions, maternity sessions and family sessions. I also have a couple weddings under my belt and if you're interested in hiring me for yours, I'd love to chat with you about it!&nbsp;</span>
 
-* Vut et penatibus
+<span style="font-size: 1rem;">I'm most interested in capturing connections between people, regardless of the&nbsp;</span>type<span style="font-size: 1rem;">&nbsp;of session. Those "magic" moments between smiling for the&nbsp;</span>camrea<span style="font-size: 1rem;">&nbsp;where the warmth of your relationship really shines. If this sounds like the kind of thing you're also interested in, drop me a line!</span>
 
-* Adipiscing
+![](/uploads/2017/11/06/IMG_2576.JPG)
 
-* Lorem pid
+Photo by Kalina Denault Photography
 
-* Nascetur a enim
-
-Velit velit. Augue proin et! Et adipiscing pulvinar dictumst mus diam? Urna proin aenean pulvinar ac elementum augue massa? Hac [adipiscing](/) nisi urna aliquam turpis elit ridiculus magna lacus? Enim eu. In vel tempor turpis non amet! Nisi, tempor.
