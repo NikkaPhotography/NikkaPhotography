@@ -1,10 +1,7 @@
 ---
 pages:
+- _photoshoots/e-k-couples-shoot.md
 - _photoshoots/m-n-couples-shoot.md
-- _photoshoots/photoshoot-four.md
-- _photoshoots/photoshoot-three.md
-- _photoshoots/photoshoot-two.md
-- _photoshoots/photoshoot-one.md
 hide_body: false
 fields:
 - type: text
