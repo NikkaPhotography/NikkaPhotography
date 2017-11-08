@@ -16,7 +16,8 @@ layout: default
       </div>
     </div>
     <div class="grid-center">
-      {% for photoshoot in site.photoshoots %}
+      {% assign sorted = (site.photoshoots | sort: 'date') | reverse %}
+      {% for photoshoot in sorted %}
         <div class="col-5_sm-12 padding">
           <a class="gallery-thumbnail" href="{{ photoshoot.url | relative_url }}">
             <div class="gallery-title-wrapper">
@@ -26,8 +27,8 @@ layout: default
               </div>
             </div>
             <img src="{{ photoshoot.list_of_photos[0] | prepend: site.backblazeurl }}" />
-          </div>
-        </a>
+          </a>
+        </div>
       {% endfor %}
     </div>
 
