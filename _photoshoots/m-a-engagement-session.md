@@ -25,6 +25,6 @@ layout: photoshoot
 date: 2017-11-07 18:04:46 +0000
 photoshoot_title: M&A Engagement Session
 photoshoot_type: Engagement Session
-photoshoot_date: 2017-07-14 00:00:00 -0500
+photoshoot_date: 2017-07-14 05:00:00 +0000
 ---
 M & A are genuinely lovely souls who have so much love and respect for each other, and it is so obvious in their energy and shines through their photos. We met up as the sun was setting in another one of my Charleswood "magic fields" and frolicked around the wildflowers for a little while. It was a beautiful evening!

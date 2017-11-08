@@ -22,6 +22,6 @@ layout: photoshoot
 date: 2017-11-07 17:30:53 +0000
 photoshoot_title: E&K Couples Session
 photoshoot_type: Couples Session
-photoshoot_date: 2017-07-05 00:00:00 -0500
+photoshoot_date: 2017-07-05 05:00:00 +0000
 ---
 My favourite thing about the Charleswood area are the hidden, completely magical fields and woods scattered around the area. E & K joined me in one of these magical fields on a beautiful July evening for a lovely little couples shoot. One of my favourite images (I use it as my profile picture on my photography facebook page/instagam accounts) came out of this session, so thanks for being such beautiful models guys!

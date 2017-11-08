@@ -20,6 +20,6 @@ layout: photoshoot
 date: 2017-11-06 21:12:16 +0000
 photoshoot_title: M&N Couples Session
 photoshoot_type: Couples Session
-photoshoot_date: 2017-06-28 00:00:00 -0500
+photoshoot_date: 2017-06-28 05:00:00 +0000
 ---
 On a crazy windy day in June I got to meet M & N in a canola field just as the yellow flowers hit full bloom, for a whirlwind (pun intended) of a mini shoot. And by mini, I really mean mini, because I think this shoot took about 15 mins! Big prairie fields are such a love of mine, and they're made even better by a totally in love couple cuddling in them! Thanks guys!
