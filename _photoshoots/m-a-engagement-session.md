@@ -1,6 +1,7 @@
 ---
 title: M&A Engagement Session
 list_of_photos:
+- M-A-Couples-July-14/MA-(46).jpg
 - M-A-Couples-July-14/MA-(44).jpg
 - M-A-Couples-July-14/MA-(2).jpg
 - M-A-Couples-July-14/MA-(5).jpg
@@ -18,7 +19,6 @@ list_of_photos:
 - M-A-Couples-July-14/MA-(37).jpg
 - M-A-Couples-July-14/MA-(38).jpg
 - M-A-Couples-July-14/MA-(42).jpg
-- M-A-Couples-July-14/MA-(46).jpg
 - M-A-Couples-July-14/MA-(51).jpg
 - M-A-Couples-July-14/MA-(56).jpg
 layout: photoshoot
